@@ -75,6 +75,17 @@ html {
   color: #fff;
 }
 
+/* Sidebar logo */
+.sidebar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-logo img {
+  width: 50%; 
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;
@@ -109,7 +120,7 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    top: 1rem;
     left:   1rem;
   }
 }

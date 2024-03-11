@@ -4,8 +4,11 @@ title = "Robin Gieseking"
 
 theme = 'hyde'
 
+
 [params]
 description = "Full-stack programmer"
+logo = 'robin-logo.svg'
+logoAlt = "A low-poly image of a robin"
 
 [Menus]
 main = [
