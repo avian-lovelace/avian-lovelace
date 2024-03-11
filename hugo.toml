@@ -1,4 +1,14 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Robin Gieseking"
+
 theme = 'hyde'
+
+[params]
+description = "Full-stack programmer"
+
+[Menus]
+main = [
+    { Name = "Github", URL = "https://github.com/avian-lovelace/" },
+    { Name = "LinkedIn", URL = "https://www.linkedin.com/in/robin-gieseking/" },
+]
