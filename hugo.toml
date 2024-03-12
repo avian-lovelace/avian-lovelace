@@ -23,10 +23,7 @@ _merge = "none"
 
 [params]
   author = "Robin Gieseking"
-  # email does still work but is deprecated.
-  # use [params.contact.email] instead.
-  #email = "john.doe@example.com"
-  description = "Landing Page"
+  description = "This is Robin Gieseking's personal website. You can check out my skills and experience on LinkedIn and some of my personal projects on GitHub."
   bio = "Full-stack Software Engineer"
   avatar = "robin-logo.svg"
   favicon = "robin-logo.svg"
