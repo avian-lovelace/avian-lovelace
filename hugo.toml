@@ -27,7 +27,10 @@ _merge = "none"
   bio = "Full-stack Software Engineer"
   avatar = "robin-logo.svg"
   favicon = "robin-logo.svg"
-  error404 = "There is no such page."
+  # eror404 is rendered as Markdown on error page
+  error404 = """This page doesn't exist
+
+[Return to homepage](.)"""
 
   [params.contact]
     # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
